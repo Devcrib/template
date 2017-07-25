@@ -3,7 +3,7 @@ import Home from './Home';
 
 export default StackNavigator({
   Home: { 
-    screen: Home
+    screen: Home,
   },
   
 });

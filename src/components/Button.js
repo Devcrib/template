@@ -10,7 +10,7 @@ class Button extends Component {
           onPress={this.props.onPress}
           background={Platform.OS === 'android' ? TouchableNativeFeedback.SelectableBackground() : ''}>
         <View style={styles.button}>
-          <Text style={styles.buttonText}>this.props.title</Text>
+          <Text style={styles.buttonText}>{ this.props.title }</Text>
         </View>
       </TouchableNativeFeedback>
     );
